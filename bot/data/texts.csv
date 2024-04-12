@@ -1,0 +1,56 @@
+locale,RU
+bot_sleep,Бот на тех. обслуживании
+start/channel_group_needed,"Подпишись на группу и канал, чтобы пользоваться ботом!"
+start/channel_needed,Нужно подписаться на канал.
+start/group_needed,Нужно вступить в группу.
+start/thanks,Спасибо!
+start/welcome,Добро пожаловать в магазин игр!
+catalog/main,<b>Каталог</b>
+catalog/back_tree,<b>Каталог</b> -> {}
+product/add,"<b>{}</b>
+
+Сколько единиц добавить в корзину?"
+product/info,"<b>{}</b>
+
+{}
+
+Категория: {}"
+basket/main,"<b>Корзина</b>
+
+Кол-во: {}
+Общая стоимость: {}"
+basket/empty,Ваша корзина пуста :с
+basket/product_title,<b>{}</b>
+basket/address/is_yours,Ваш адрес <i>{}</i>?
+basket/address/enter_city,"<b>Адрес</b>
+
+Введите ваш город:"
+basket/address/enter_street,Введите улицу:
+basket/address/enter_building,Введите номер дома:
+basket/checkout/title,Оплата заказа
+basket/checkout/description,Оплатите заказ на сумму {} RUB
+basket/checkout/thanks,Спасибо за оплату! Ваш заказ уже летит к вам!
+,
+,
+,
+button/RETURN,Назад
+button/CHANNEL,Канал
+button/GROUP,Группа
+button/CHECK_SUBS,Проверить продписку
+button/CATALOG,Каталог
+button/BASKET,Корзина ({})
+button/FAQ,FAQ
+button/CATEGORY_PLACEHOLDER,⬇ Игры в категории {} ⬇
+button/GO_HOME,🏠 На главную
+button/ADD_BASKET,🛒 Добавить в корзину
+button/GOBACK_CATALOG,◀ К каталогу
+button/BASKET_INCREASE,➕
+button/BASKET_DECREASE,➖
+button/ADD,Добавить
+button/CHECKOUT,💳 Оформить заказ
+button/PAY,💳 Оплатить
+button/GO_CATALOG,📘 В каталог
+button/SAVE,Сохранить
+button/DELETE,Удалить
+button/DELIVERY_NEW,"Нет, указать новый"
+button/DELIVERY_OLD,"Да, доставить сюда"

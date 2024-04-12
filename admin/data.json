@@ -1,0 +1,296 @@
+[
+{
+    "model": "main.user",
+    "pk": 2,
+    "fields": {
+        "tg_id": 41494219
+    }
+},
+{
+    "model": "main.user",
+    "pk": 3,
+    "fields": {
+        "tg_id": 5101521679
+    }
+},
+{
+    "model": "main.category",
+    "pk": 1,
+    "fields": {
+        "parent": null,
+        "title": "Приключения"
+    }
+},
+{
+    "model": "main.category",
+    "pk": 2,
+    "fields": {
+        "parent": null,
+        "title": "Платформеры"
+    }
+},
+{
+    "model": "main.category",
+    "pk": 3,
+    "fields": {
+        "parent": null,
+        "title": "Шутеры"
+    }
+},
+{
+    "model": "main.category",
+    "pk": 4,
+    "fields": {
+        "parent": 1,
+        "title": "RPG"
+    }
+},
+{
+    "model": "main.category",
+    "pk": 5,
+    "fields": {
+        "parent": 1,
+        "title": "Исследование"
+    }
+},
+{
+    "model": "main.category",
+    "pk": 6,
+    "fields": {
+        "parent": 2,
+        "title": "Сайд-скроллеры"
+    }
+},
+{
+    "model": "main.category",
+    "pk": 7,
+    "fields": {
+        "parent": 2,
+        "title": "Метроидвании"
+    }
+},
+{
+    "model": "main.category",
+    "pk": 8,
+    "fields": {
+        "parent": 3,
+        "title": "FPS"
+    }
+},
+{
+    "model": "main.category",
+    "pk": 9,
+    "fields": {
+        "parent": 3,
+        "title": "TPS"
+    }
+},
+{
+    "model": "main.category",
+    "pk": 10,
+    "fields": {
+        "parent": 3,
+        "title": "Top Down"
+    }
+},
+{
+    "model": "main.poster",
+    "pk": 2,
+    "fields": {
+        "path": "content/6122810020.jpg",
+        "tg_id": null
+    }
+},
+{
+    "model": "main.poster",
+    "pk": 3,
+    "fields": {
+        "path": "content/300x400.png",
+        "tg_id": null
+    }
+},
+{
+    "model": "main.poster",
+    "pk": 4,
+    "fields": {
+        "path": "content/6520535219.jpg",
+        "tg_id": null
+    }
+},
+{
+    "model": "main.poster",
+    "pk": 5,
+    "fields": {
+        "path": "content/1020929449.jpg",
+        "tg_id": null
+    }
+},
+{
+    "model": "main.poster",
+    "pk": 6,
+    "fields": {
+        "path": "content/1021319766.jpg",
+        "tg_id": null
+    }
+},
+{
+    "model": "main.poster",
+    "pk": 7,
+    "fields": {
+        "path": "content/6356709213.jpg",
+        "tg_id": null
+    }
+},
+{
+    "model": "main.poster",
+    "pk": 8,
+    "fields": {
+        "path": "content/6460748_sd.jpg",
+        "tg_id": null
+    }
+},
+{
+    "model": "main.poster",
+    "pk": 9,
+    "fields": {
+        "path": "content/1xj060b799j71.jpg",
+        "tg_id": null
+    }
+},
+{
+    "model": "main.poster",
+    "pk": 10,
+    "fields": {
+        "path": "content/10117819464.jpg",
+        "tg_id": null
+    }
+},
+{
+    "model": "main.poster",
+    "pk": 11,
+    "fields": {
+        "path": "content/1017819464.jpg",
+        "tg_id": null
+    }
+},
+{
+    "model": "main.product",
+    "pk": 1,
+    "fields": {
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "description": "Forget everything you know about The Legend of Zelda games. Step into a world of discovery, exploration, and adventure in The Legend of Zelda: Breath of the Wild, a boundary-breaking new game in the acclaimed series. Travel across vast fields, through forests, and to mountain peaks as you discover what has become of the kingdom of Hyrule in this stunning Open-Air Adventure. Now on Nintendo Switch, your journey is freer and more open than ever. Take your system anywhere, and adventure as Link any way you like.",
+        "poster": 11,
+        "created_at": "2024-04-09T11:10:41.611Z",
+        "category": 1,
+        "price": "100.00"
+    }
+},
+{
+    "model": "main.product",
+    "pk": 2,
+    "fields": {
+        "title": "The Legend of Zelda: Tears of the Kingdom",
+        "description": "An epic adventure awaits in the Legend of Zelda: Tears of the Kingdom game, only on the Nintendo Switch system.\r\n\r\nIn this sequel to the Legend of Zelda: Breath of the Wild game, you’ll decide your own path through the sprawling landscapes of Hyrule and the mysterious islands floating in the vast skies above. Can you harness the power of Link’s new abilities to fight back against the malevolent forces that threaten the kingdom?",
+        "poster": 10,
+        "created_at": "2024-04-09T11:12:47.947Z",
+        "category": 1,
+        "price": "100.00"
+    }
+},
+{
+    "model": "main.product",
+    "pk": 3,
+    "fields": {
+        "title": "Diablo II: Resurrected",
+        "description": "Diablo® II: Resurrected™ is the definitive remastering of Diablo® II and its Lord of Destruction® expansion—two hallmark entries in Blizzard Entertainment’s genre-defining action role-playing series. Veteran players, as well as those who missed out when the original game was first released on PC twenty years ago, can now experience Diablo® II’s timeless gameplay with modern visuals and audio that take advantage of today’s gaming hardware.",
+        "poster": 9,
+        "created_at": "2024-04-10T10:39:47.838Z",
+        "category": 4,
+        "price": "100.00"
+    }
+},
+{
+    "model": "main.product",
+    "pk": 4,
+    "fields": {
+        "title": "Hotline Miami",
+        "description": "Hotline Miami Collection contains both legendary games in the neon-soaked, brutally-challenging Hotline Miami series from Dennaton Games.",
+        "poster": 8,
+        "created_at": "2024-04-10T10:42:07.346Z",
+        "category": 10,
+        "price": "100.00"
+    }
+},
+{
+    "model": "main.product",
+    "pk": 5,
+    "fields": {
+        "title": "SAINTS ROW: THE THIRD",
+        "description": "Saints Row®: The Third™ - The Full Package gives you control of the Saints at the height of their power, and you live the life to show for it.\r\nPut the wildest chapter of the Saints Row saga in the palms of your hands for the first time on Switch. You bring the fight to Steelport, a sordid city of sin drowning in sex, drugs, and (a lot of) guns. This is your City. These are your rules.",
+        "poster": 7,
+        "created_at": "2024-04-10T10:43:09.561Z",
+        "category": 9,
+        "price": "100.00"
+    }
+},
+{
+    "model": "main.product",
+    "pk": 6,
+    "fields": {
+        "title": "DOOM",
+        "description": "Developed by id Software, the studio that pioneered the first-person shooter genre and created multiplayer Deathmatch, DOOM returns as a brutally fun and challenging modern-day shooter experience. Relentless demons, impossibly destructive guns, and fast, fluid movement provide the foundation for intense, first-person combat – whether you’re obliterating demon hordes through the depths of Hell in the single-player campaign, or competing against your friends in numerous multiplayer modes. There is no taking cover or stopping to regenerate health as you beat back Hell’s raging demon hordes. Combine your arsenal of futuristic and iconic guns, upgrades, movement and an advanced melee system to knock-down, slash,",
+        "poster": 6,
+        "created_at": "2024-04-10T10:43:56.302Z",
+        "category": 8,
+        "price": "100.00"
+    }
+},
+{
+    "model": "main.product",
+    "pk": 7,
+    "fields": {
+        "title": "Super Mario Odyssey",
+        "description": "Explore incredible places far from the Mushroom Kingdom as you join Mario and his new ally Cappy on a massive, globe-trotting 3D adventure. Use amazing new abilities—like the power to capture and control objects, animals, and enemies—to collect Power Moons so you can power up the Odyssey airship and save Princess Peach from Bowser’s wedding plans!\r\n\r\nThanks to heroic, hat-shaped Cappy, Mario’s got new moves that’ll make you rethink his traditional run-and-jump gameplay—like cap jump, cap throw, and capture. Use captured cohorts such as enemies, objects, and animals to progress through the game and uncover loads of hidden",
+        "poster": 5,
+        "created_at": "2024-04-10T10:44:35.935Z",
+        "category": 2,
+        "price": "100.00"
+    }
+},
+{
+    "model": "main.product",
+    "pk": 8,
+    "fields": {
+        "title": "Minecraft",
+        "description": "Minecraft is a game about placing blocks and going on adventures.\r\n\r\nExplore randomly generated worlds and build amazing things from the simplest of homes to the grandest of castles. Play in creative mode with unlimited resources or mine deep into the world in survival mode, crafting weapons and armor to fend off the dangerous mobs.",
+        "poster": 4,
+        "created_at": "2024-04-10T10:45:42.844Z",
+        "category": 5,
+        "price": "100.00"
+    }
+},
+{
+    "model": "main.product",
+    "pk": 9,
+    "fields": {
+        "title": "Shovel Knight",
+        "description": "Shovel Knight: Treasure Trove is the full and complete edition of Shovel Knight, a sweeping classic action-adventure game series with awesome gameplay, memorable characters, and an 8-bit retro aesthetic! Run, jump, and battle as Shovel Knight, wielder of the Shovel Blade, in a quest for his lost beloved. Take down the nefarious knights of the Order of No Quarter and confront their menacing leader, The Enchantress.",
+        "poster": 3,
+        "created_at": "2024-04-10T10:46:53.139Z",
+        "category": 6,
+        "price": "100.00"
+    }
+},
+{
+    "model": "main.product",
+    "pk": 10,
+    "fields": {
+        "title": "Metroid Dread",
+        "description": "mysterious foe that traps her in this dangerous world. The remote planet has been overrun by vicious alien lifeforms and murderous robots called E.M.M.I. Hunt or be hunted as you make your way through a labyrinth of enemies in Samus’ most intense side-scrolling adventure yet.",
+        "poster": 2,
+        "created_at": "2024-04-10T10:47:39.019Z",
+        "category": 7,
+        "price": "100.00"
+    }
+}
+]

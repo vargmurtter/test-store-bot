@@ -1,0 +1,13 @@
+__pycache__
+.env
+.env.docker
+.idea
+.vscode
+.mypy_cache
+.VSCodeCounter
+temp
+logs
+venv
+
+test.py
+orders.xlsx

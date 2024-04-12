@@ -1,0 +1,16 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+{% if success %}
+<ul class="messagelist">
+    <li class="success">{{ success }}</li>
+</ul>
+{% endif %}
+<form method="post">
+    {% csrf_token %}
+    <div>
+        <label for="message">Сообщение:</label>
+        <textarea name="message" id="message" rows="10" cols="60" required></textarea>
+    </div>
+    <input type="submit" value="Запустить рассылку">
+</form>
+{% endblock %}
